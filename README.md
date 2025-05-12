@@ -15,10 +15,10 @@ We aim to provide:
 
 | Dataset     | Description                       | Size   | Language | Paper / Link | 🛠️ In Script? |
 |-------------|-----------------------------------|--------|----------|----------------|--------|
-| RVL-CDIP    | Document classification (16 types)| 400k+  | English  | [📄](https://arxiv.org/abs/1505.03850), [🔗](https://www.cs.cmu.edu/~aharley/rvl-cdip/) |
-| PubLayNet   | Layout segmentation in papers     | 360k   | English  | [📄](https://arxiv.org/abs/1908.07836), [🔗](https://github.com/ibm-aur-nlp/PubLayNet) |
+| RVL-CDIP    | Document classification (16 types)| 400k+  | English  | [📄](https://adamharley.com/icdar15/), [🔗](https://adamharley.com/rvl-cdip/) |
+| PubLayNet   | Layout segmentation in papers     | 360k   | English  | [📄](https://arxiv.org/pdf/1908.07836), [🔗](https://github.com/ibm-aur-nlp/PubLayNet) | ✅ |
 | DocBank     | Document layout annotations       | 500k+  | English  | [📄](https://arxiv.org/abs/2006.01038), [🔗](https://github.com/doc-analysis/DocBank) |
-| IIT-CDIP    | Scanned documents for OCR         | 11M+   | English  | [🔗](https://www.cs.cmu.edu/~aharley/rvl-cdip/) |
+| IIT-CDIP    | Scanned documents for OCR         | 11M+   | English  | [📄](https://ir.cs.georgetown.edu/downloads/sigir06cdipcoll_v05-with-authors.pdf), [🔗](https://data.nist.gov/od/id/mds2-2531) |
 
 ---
 
@@ -26,20 +26,20 @@ We aim to provide:
 
 | Dataset     | Description                       | Size   | Language | Paper / Link | 🛠️ In Script? |
 |-------------|-----------------------------------|--------|----------|----------------|--------|
-| FUNSD       | Form + OCR + entity linking       | 199    | English  | [📄](https://arxiv.org/abs/1905.13538), [🔗](https://guillaumejaume.github.io/FUNSD/) |
-| CORD        | Receipt KIE                       | 1,000+ | KR/EN    | [📄](https://arxiv.org/abs/1912.03299), [🔗](https://github.com/clovaai/cord) |
-| XFUND       | Multilingual form understanding   | 1,000+ | 7 langs  | [📄](https://arxiv.org/abs/2102.08903), [🔗](https://github.com/doc-analysis/XFUND) |
-| SROIE       | Invoice info extraction           | ~1,000 | English  | [🔗](https://rrc.cvc.uab.es/?ch=13) |
-| Kleister-NDA   | Legal      | NDA entity extraction               | English  | [📄](https://arxiv.org/abs/2003.04988), [🔗](https://github.com/applicaai/kleister-nda) |
+| FUNSD       | Form + OCR + entity linking       | 199    | English  | [🏠](https://guillaumejaume.github.io/FUNSD/), [📄](https://arxiv.org/abs/1905.13538), [🔗](https://guillaumejaume.github.io/FUNSD/) | ✅ |
+| CORD        | Receipt KIE                       | 1,000+ | KR/EN    | [📄](https://openreview.net/pdf?id=SJl3z659UH), [🔗](https://github.com/clovaai/cord) | ✅ |
+| XFUND       | Multilingual form understanding   | 1,000+ | 7 langs  | [📄](https://arxiv.org/pdf/2104.08836), [🔗](https://github.com/doc-analysis/XFUND) |
+| SROIE       | Invoice info extraction           | ~1,000 | English  | [📄](https://arxiv.org/pdf/2103.10213), [🔗](https://github.com/zzzDavid/ICDAR-2019-SROIE) |
+| Kleister-NDA   | Legal      | NDA entity extraction               | English  | [📄](https://arxiv.org/pdf/2105.05796), [🔗](https://github.com/applicaai/kleister-nda) |
 ---
 
 ### 📊 3. Table Detection & Structure Recognition
 
 | Dataset     | Description                       | Size   | Language | Paper / Link | 🛠️ In Script? |
 |-------------|-----------------------------------|--------|----------|----------------|--------|
-| TableBank   | Table detection (Word/PDF)        | 417k   | EN/CH    | [📄](https://arxiv.org/abs/1903.10676), [🔗](https://doc-analysis.github.io/tablebank-page/) |
-| SciTSR      | Table structure recognition       | 12k    | English  | [📄](https://arxiv.org/abs/1911.04994), [🔗](https://github.com/abc-nlp/SciTSR) |
-| SciCap      | Table caption generation          | 12k    | English  | [📄](https://arxiv.org/abs/2010.03150), [🔗](https://github.com/lichengunc/SciCap) |
+| TableBank   | Table detection (Word/PDF)        | 417k   | EN/CH    | [📄](https://arxiv.org/abs/1903.01949), [🔗](https://github.com/doc-analysis/TableBank) |
+| SciTSR      | Table structure recognition       | 12k    | English  | [📄](https://arxiv.org/pdf/1908.04729.pdf), [🔗](https://github.com/Academic-Hammer/SciTSR) |
+| SciCap      | Table caption generation          | 12k    | English  | [📄](https://arxiv.org/pdf/2110.11624), [🔗](https://github.com/tingyaohsu/SciCap) |
 
 ---
 
@@ -47,9 +47,11 @@ We aim to provide:
 
 | Dataset     | Description                       | Size   | Language | Paper / Link | 🛠️ In Script? |
 |-------------|-----------------------------------|--------|----------|----------------|--------|
-| DocVQA      | VQA on real documents             | 50k+   | English  | [📄](https://arxiv.org/abs/2007.00398), [🔗](https://docvqa.org/) |
-| InfographicVQA| VQA on infographic-style images | 5k+    | English  | [📄](https://arxiv.org/abs/2206.01091), [🔗](https://github.com/google-research-datasets/infographicVQA) |
-| VisualMRC   | Multimodal long-doc QA            | 12k    | English  | [📄](https://arxiv.org/abs/2311.04180), [🔗](https://github.com/hpanwar08/VisualMRC) |
+| DocVQA      | VQA on real documents             | 50k+   | English  | [📄](https://arxiv.org/pdf/2007.00398), [🔗](https://docvqa.org/) | ❌ |
+| InfographicVQA| VQA on infographic-style images | 5k+    | English  | [📄](https://arxiv.org/pdf/2104.12756), [🔗](https://www.docvqa.org/datasets/infographicvqa) |
+| VisualMRC   | Multimodal long-doc QA            | 12k    | English  | [📄](https://arxiv.org/pdf/2101.11272), [🔗](https://github.com/nttmdlab-nlp/VisualMRC) |
+| DUDE             | Diverse types of answers incl. numeric/boolean | 30k+   | English  | [📄](https://arxiv.org/pdf/2305.08455), [🔗](https://huggingface.co/datasets/jordyvl/DUDE_loader) | ❌ |
+| BoundingDocs     | DocVQA with spatial answer grounding       | 10k+   | English  | [📄](https://arxiv.org/abs/2501.03403), [🔗](https://huggingface.co/datasets/letxbe/BoundingDocs) | ❌ |
 
 ---
 
@@ -57,8 +59,8 @@ We aim to provide:
 
 | Dataset     | Description                       | Language | Paper / Link | 🛠️ In Script? |
 |-------------|-----------------------------------|----------|----------------|----------|
-| XFUND       | Form understanding (7 languages)  | 7 langs  | [📄](https://arxiv.org/abs/2102.08903), [🔗](https://github.com/doc-analysis/XFUND) |
-| MLDoc       | Multilingual classification       | 8 langs  | [📄](https://arxiv.org/abs/1811.00218), [🔗](https://github.com/facebookresearch/MLDoc) |
+| XFUND       | Form understanding (7 languages)  | 7 langs  | [📄](https://arxiv.org/pdf/2104.08836), [🔗](https://github.com/doc-analysis/XFUND) |
+| MLDoc       | Multilingual classification       | 8 langs  | [📄](https://arxiv.org/pdf/1805.09821), [🔗](https://github.com/facebookresearch/MLDoc) |
 
 ---
 
@@ -66,9 +68,9 @@ We aim to provide:
 
 | Dataset        | Domain     | Description                         | Language | Paper / Link | 🛠️ In Script? |
 |----------------|------------|-------------------------------------|----------|----------------|----------|
-| Kleister-NDA   | Legal      | NDA entity extraction               | English  | [📄](https://arxiv.org/abs/2003.04988), [🔗](https://github.com/applicaai/kleister-nda) |
-| SciDocs        | Academic   | Citation prediction and doc linkage| English  | [📄](https://arxiv.org/abs/2004.07180), [🔗](https://github.com/allenai/scidocs) |
-| EU-LEGIS       | Legal      | Multilingual EU legal documents     | Multi    | [📄](https://arxiv.org/abs/2305.15386), [🔗](https://huggingface.co/datasets/ferretj/eulegis) |
+| DeepForm       | Finance/Gov| Forms with structured labels        | English  | [📄](https://wandb.ai/stacey/deepform_v1/reports/DeepForm-Understand-Structured-Documents-at-Scale--VmlldzoyODQ3Njg), [🔗](https://github.com/project-deepform/deepform) | |
+| Kleister-NDA   | Legal      | NDA entity extraction               | English  | [🔗](https://github.com/applicaai/kleister-nda) |
+| SciDocs        | Academic   | Citation prediction and doc linkage| English  | [📄](https://arxiv.org/pdf/2004.07180), [🔗](https://github.com/allenai/scidocs) |
 
 ---
 

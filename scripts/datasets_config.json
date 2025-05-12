@@ -5,52 +5,16 @@
       "filetype": "zip",
       "target_dir": "funsd"
     },
-    "docvqa": {
-      "name": "DocVQA",
-      "url": "https://rrc.cvc.uab.es/downloads/DocVQA_train_val.zip",
-      "filetype": "zip",
-      "target_dir": "docvqa"
-    },
     "publaynet": {
       "name": "PubLayNet",
       "url": "https://dax-cdn.cdn.appdomain.cloud/dax-publaynet/1.0.0/publaynet.tar.gz",
       "filetype": "tar.gz",
       "target_dir": "publaynet"
     },
-    "rvl_cdip": {
-      "name": "RVL-CDIP",
-      "url": "https://www.cs.cmu.edu/~aharley/rvl-cdip/RVL-CDIP.tar.gz",
-      "filetype": "tar.gz",
-      "target_dir": "rvl_cdip"
-    },
     "cord": {
       "name": "CORD",
       "url": "https://github.com/clovaai/cord/archive/refs/heads/master.zip",
       "filetype": "zip",
       "target_dir": "cord"
-    },
-    "xfund": {
-      "name": "XFUND",
-      "url": "https://github.com/doc-analysis/XFUND/archive/refs/heads/main.zip",
-      "filetype": "zip",
-      "target_dir": "xfund"
-    },
-    "tablebank": {
-      "name": "TableBank",
-      "url": "https://doc-analysis.github.io/tablebank-page/download/TableBank-Word.zip",
-      "filetype": "zip",
-      "target_dir": "tablebank"
-    },
-    "scitsr": {
-      "name": "SciTSR",
-      "url": "https://github.com/abc-nlp/SciTSR/archive/refs/heads/master.zip",
-      "filetype": "zip",
-      "target_dir": "scitsr"
-    },
-    "kleister_nda": {
-      "name": "Kleister-NDA",
-      "url": "https://github.com/applicaai/kleister-nda/archive/refs/heads/master.zip",
-      "filetype": "zip",
-      "target_dir": "kleister_nda"
     }
   }
